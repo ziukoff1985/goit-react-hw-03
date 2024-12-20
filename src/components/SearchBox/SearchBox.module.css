@@ -1,7 +1,7 @@
 .inputWrap {
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
+  /* margin-bottom: 20px; */
 }
 
 .inputLabel {
@@ -15,7 +15,7 @@
   width: 500px;
   border: 1px solid #ccc;
   padding: 10px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   border-radius: 8px;
   margin-top: 5px;
 }
