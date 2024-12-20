@@ -1,10 +1,10 @@
 .contactCard {
   display: flex;
-  width: 400px;
+  width: 500px;
   justify-content: space-between;
   border: 1px solid #ccc;
   padding: 10px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   border-radius: 8px;
   align-items: center;
 }
@@ -22,24 +22,24 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .iconUser,
 .iconPhone {
   fill: #5355fd;
-  width: 16px;
-  height: 16px;
+  width: 28px;
+  height: 28px;
 }
 
 .deleteButton {
   color: rgb(255, 255, 255);
   border-radius: 8px;
   border: none;
-  padding: 5px 20px;
-  font-size: 18px;
+  padding: 20px 20px;
+  font-size: 24px;
   font-weight: 500;
   background-color: #5355fd;
   cursor: pointer;
-  height: 40px;
+  /* height: 40px; */
 }
