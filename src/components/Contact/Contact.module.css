@@ -1,0 +1,45 @@
+.contactCard {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.contactCardWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+.contactCardItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.iconUser,
+.iconPhone {
+  fill: #5355fd;
+  width: 16px;
+  height: 16px;
+}
+
+.deleteButton {
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: none;
+  padding: 5px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #5355fd;
+  cursor: pointer;
+  height: 40px;
+}
