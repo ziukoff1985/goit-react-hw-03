@@ -5,19 +5,21 @@ const SearchBox = ({ value, onFilter }) => {
   const searchId = useId();
 
   return (
-    <div className={styles.inputWrap}>
+    <>
       <label htmlFor={searchId} className={styles.inputLabel}>
         Find contacts by name
       </label>
-      <input
-        className={styles.input}
-        id={searchId}
-        type="text"
-        name="search"
-        value={value}
-        onChange={event => onFilter(event.target.value)}
-      />
-    </div>
+      <div className={styles.inputWrap}>
+        <input
+          className={styles.input}
+          id={searchId}
+          type="text"
+          name="search"
+          value={value}
+          onChange={event => onFilter(event.target.value)}
+        />
+      </div>
+    </>
   );
 };
 

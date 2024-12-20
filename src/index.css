@@ -23,6 +23,9 @@ a:hover {
 }
 
 body {
+  background: url('http://eskipaper.com/images/free-simple-phone-backgrounds-1.jpg')
+    no-repeat;
+  background-size: cover;
   margin: 0;
   display: flex;
   place-items: center;
