@@ -24,7 +24,7 @@ const initialValues = {
   id: '',
 };
 
-// Компонент ContactForm відповідає за розмітку і додавання нового контакту
+// Компонент ContactForm -> відповідає за розмітку і додавання нового контакту
 const ContactForm = ({ onAdd }) => {
   // Генеруємо унікальні ID для полів вводу
   const nameFieldId = useId();
