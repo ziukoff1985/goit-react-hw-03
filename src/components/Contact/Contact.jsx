@@ -2,7 +2,7 @@
 import { FaUser, FaPhoneAlt } from 'react-icons/fa';
 import styles from './Contact.module.css';
 
-// Компонент Contact відповідає за відображення одного контакту
+// Компонент Contact -> відповідає за відображення одного контакту
 const Contact = ({ name, number, id, onDelete }) => {
   // Повертаємо розмітку одного контакту
   return (
