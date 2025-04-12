@@ -2,7 +2,7 @@
 import Contact from '../Contact/Contact';
 import styles from './ContactList.module.css';
 
-// Компонент ContactList відповідає за відображення списку контактів
+// Компонент ContactList -> відповідає за відображення списку контактів
 const ContactList = ({ contacts, onDelete }) => {
   // Повертаємо розмітку зі списком контактів
   return (
